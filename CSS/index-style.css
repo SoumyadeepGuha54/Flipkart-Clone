@@ -6,6 +6,17 @@
 
 header {
   background-color: #fccc2e;
+}
+
+.brandname {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  background-color: #2a55e5;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -26,8 +37,15 @@ header nav ul li {
 
 header nav ul li a {
   padding: 5px;
-  color: #000000;
+  color: #fffffe;
   text-decoration: none;
+}
+
+header nav ul li a:hover {
+  padding: 5px;
+  color: #fffffe;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 footer {
