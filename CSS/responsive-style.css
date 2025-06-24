@@ -1,0 +1,147 @@
+@media screen and (max-width: 1150px) {
+  .brandname {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav {
+    background-color: #2a55e5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav ul {
+    display: block;
+  }
+
+  header nav ul li {
+    margin: 10px;
+    padding: 5px;
+    width: 90vw;
+    list-style: none;
+    text-align: center;
+    border: 1px solid #fffffe;
+    border-radius: 16px;
+  }
+
+  header nav ul li a {
+    padding: 5px;
+    color: #fffffe;
+    text-decoration: none;
+  }
+
+  .search {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search input {
+    margin: 5px;
+    padding: 6px 15px;
+    width: 80vw;
+    border: 1.75px solid #d3d3d3;
+    border-radius: 16px;
+  }
+
+  .search .searchbutton {
+    background-color: #fccc2e;
+    margin: 5px;
+    padding: 6px 15px;
+    width: 30vw;
+    border: 1.75px solid #fccc2e;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+
+  .hero {
+    background-image: url(../Images/hero-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero_text {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+    padding: 20px 0px;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .hero_text p {
+    font-size: 2em;
+    font-weight: 500;
+  }
+
+  .card_section {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 15px;
+    overflow: scroll;
+  }
+
+  .cards {
+    display: flex;
+    margin: 5px 0px;
+  }
+
+  .card {
+    background-color: #fccc2e;
+    margin: 0px 5px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 28px;
+  }
+
+  .card img {
+    width: 30vw;
+    border-radius: 20px;
+  }
+
+  .shop_now {
+    background-color: #2a55e5;
+    margin: 10px 0px 0px 0px;
+    padding: 8px;
+    width: 30vw;
+    color: #fffffe;
+    border: 1.75px solid #2a55e5;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero {
+    background-image: url(../Images/hero-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero_text {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+    padding: 10px 0px;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .hero_text p {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}

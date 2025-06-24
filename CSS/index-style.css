@@ -73,8 +73,74 @@ header nav ul li a:hover {
   cursor: pointer;
 }
 
-.hero img{
+.hero {
+  background-image: url(../Images/hero-image.png);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_text {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2px);
+  padding: 20px;
   width: 100vw;
+  text-align: center;
+}
+
+.hero_text p {
+  font-size: 4em;
+  font-weight: 500;
+}
+
+.card_section {
+  background-color: #f0f0f0;
+  margin: 20px;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.cards {
+  display: flex;
+  margin: 10px 0px;
+}
+
+.card {
+  background-color: #fccc2e;
+  margin: 0px 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 28px;
+}
+
+.card_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.card_text {
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+
+.shop_now {
+  background-color: #2a55e5;
+  margin: 10px 0px 0px 0px;
+  padding: 8px;
+  width: 200px;
+  color: #fffffe;
+  border: 1.75px solid #2a55e5;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 footer {
