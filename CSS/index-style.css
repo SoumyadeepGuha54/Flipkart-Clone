@@ -103,6 +103,10 @@ header nav ul li a:hover {
   overflow: scroll;
 }
 
+.card_section_text p {
+  margin: 0px 0px 15px 0px;
+}
+
 .cards {
   display: flex;
   margin: 10px 0px;
