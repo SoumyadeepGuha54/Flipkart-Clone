@@ -73,6 +73,10 @@ header nav ul li a:hover {
   cursor: pointer;
 }
 
+.hero img{
+  width: 100vw;
+}
+
 footer {
   background-color: #2a55e5;
   padding: 15px;
